@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div {
+ width: 90%;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: flex-start;
+ text-align: center;
+ margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input{
+ display: inline-block;
+ height: 20px;
+ width: 20px;
+ cursor: pointer;
+ margin-top: 20px; 
+ }
+
+input:focus{
+ outline: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label {
+ display: inline-block;
+ vertical-align: top;
+ font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+button{
+ font-size: 25px;
+ background: none;
+ border: 2px solid rgb(187, 90, 90);
+ border-radius: 15px;
+ padding: 5px 10px;
+ margin-top: 20px;
+ outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span{
+ display: inline-block;
+ height: 36px;
+ width: 36px;
+ background-image: url(./img/rosa.png);
+}
+
+h1{
+ font-family: 'Ubuntu', sans-serif;
+ font-size: 43px;
+ color:  rgb(216, 43, 43);
+ margin-top: 20px;
+}
+
+p {
+ margin-top: 80px;
+ font-size: 28px;
+}
+
+.fajrant{
+ font-size: 45px;
+ color: red;
 }
