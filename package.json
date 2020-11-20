@@ -2,6 +2,7 @@
   "name": "fajrant-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://6sin6ner6.github.io/fajrant-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.0",
@@ -36,7 +37,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "homepage": "https://6sin6ner6.github.io/fajrant-app"
+    ]    
   }
 }
